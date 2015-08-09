@@ -2,8 +2,8 @@
 Contributors: vlastuin, janr
 Tags: auto-update, updates, mysql optimization, update, automatic update, vevida, hosting
 Requires at least: 3.9
-Tested up to: 4.2
-Stable tag: 1.0.13
+Tested up to: 4.3
+Stable tag: 1.0.14
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -50,6 +50,10 @@ repository. The source code is also freely available on GitHub.
 1. Configure automatic updates through 'Dashboard' -> 'Update Settings'
 1. Optimize your mySQL database through 'Tools' -> 'Convert DB tables'
 
+Or login to WordPress. Go to Plugins -> Add New and search for Vevida. The search
+box is located at the top right of the page. Click Install and enjoy 
+automatic updates.
+
 == Frequently Asked Questions ==
 
 = How can I configure Auto-Updates? =
@@ -64,6 +68,14 @@ Not updating your WordPress site regularly exposes your site and your hosting
 provider to bugs and other attack vectors that can enable an attacker to hack 
 into your website. Keeping your WordPress website up-to-date is one of the key 
 ingredients to keeping your website secure.
+
+= Why would I not use Auto-Updates? =
+
+If you are an expert user of WordPress, and you are always available to test each 
+and every new version of each and every plugin, theme and core update before deploying
+them to your server, then you don't need this plugin. However, the plugin offers
+a unique selection mechanism whereby only those parts you want to auto-update, 
+will in fact auto-update.
 
 = Why has this or that plugin not been updated yet? =
 
@@ -95,10 +107,17 @@ source code is available on GitHub: https://github.com/vlastuin/vevida-optimizer
 
 == Changelog ==
 
+= 1.0.14 =
+Release date: August 9th 2015
+
+* Tested  with WordPress 4.3
+* fix: minor language updates
+* New installation instructions
+
 = 1.0.13 =
 Release date: April 21th 2015
 
-fix: activation bug fixed when used on PHP 5.3
+* fix: activation bug fixed when used on PHP 5.3
 
 = 1.0.12 =
 Release date: April 21th 2015
